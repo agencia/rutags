@@ -139,6 +139,24 @@
 	{"latitude":21.961116,"longitude":-102.289903},
 	{"latitude":21.962589,"longitude":-102.289817}
 	],
+	"buspoints" : [
+		{
+		"id":1,
+	    "image": {
+	    		"url": "/images/bus.png"
+	    		},
+	    "latitude": 21.866179,
+	    "longitude": -102.293637
+  		},
+  		{
+  		"id":2,
+	    "image": {
+	    		"url": "/images/bus.png"
+	    		},
+	    "latitude": 21.906260,
+	    "longitude": -102.296276
+  		}
+  ],
 	"stroke": {
 		"color": "#6060FB",
 		"weight": 3
