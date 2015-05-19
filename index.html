@@ -1,0 +1,17 @@
+<!doctype html> <html class="no-js" ng-app="rutasApp"> <head> <meta charset="utf-8"> <title></title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.476df695.css"> <link rel="stylesheet" href="styles/main.e6438fbc.css"> <!-- Google Analytics --> <!-- *NOTA: La cuenta usada fué: rutas.ags@gmail.com & pass: Dinfra.2015 --> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-62565142-1', 'auto');
+      ga('send', 'pageview');</script> <!-- end Google Analytics -->  <body ng-controller="MainCtrl"> <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--> <!-- Add your site or application content here --> <header> <!--custom directive :D--> <nav-buttons></nav-buttons> </header> <div class="container-fluid" id="map_canvas"> <div ng-view="" ng-style="style()" resize> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');</script> <!--[if lt IE 9]>
+    <script src="scripts/oldieshim.bfe322b1.js"></script>
+    <![endif]--> <script src="scripts/vendor.d6724f2a.js"></script> <script src="scripts/scripts.520744f1.js"></script> <!-- Parse --> <script src="//www.parsecdn.com/js/parse-1.4.2.min.js"></script> <!-- endParse -->  
