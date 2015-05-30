@@ -241,9 +241,7 @@
 		{"latitude":21.834103,"longitude":-102.190059},
 		{"latitude":21.832520,"longitude":-102.189433},
 		{"latitude":21.831735,"longitude":-102.189131},
-		{"latitude":21.831337,"longitude":-102.188973},
-		{"latitude":21.867080,"longitude":-102.245497},
-		{"latitude":21.830829,"longitude":-102.188774}
+		{"latitude":21.831337,"longitude":-102.188973}
 	],
 	"stroke": {
 		"color": "#6060FB",
